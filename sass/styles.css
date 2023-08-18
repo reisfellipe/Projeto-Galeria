@@ -271,6 +271,6 @@ footer span {
   .gallery .gallery-card:hover{
     background-size: 110%;
     filter: grayscale(0%);
-    background-color: linear-gradient(rgba);
+    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5));
   }
 }

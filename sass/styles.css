@@ -225,6 +225,12 @@ footer span {
   color: #20c997;
 }
 
+@media (max-width: 360px) {
+  .header .header-brand{
+    font-size: 2.5rem;
+  }
+}
+
 @media (max-width: 425px) {
   body a{
     pointer-events: none;

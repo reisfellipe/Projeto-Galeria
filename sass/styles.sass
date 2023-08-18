@@ -70,9 +70,7 @@ body
         width: 31%
         height: 400px
         margin-bottom: 4%
-        display: flex
-        align-items: center
-        justify-content: center
+        @include mixins.flex-center
         flex-direction: column
         color: variables.$primary-color
 
@@ -106,7 +104,7 @@ body
         @include mixins.bg-img('paisagem.jpg')
 
     #card-5
-        @include mixins.bg-img('pessoas.jpg')
+        @include mixins.bg-img('pessoas-1.jpg')
 
     #card-6
         @include mixins.bg-img('natureza.jpg')

@@ -74,6 +74,11 @@ body ul {
   width: 31%;
   height: 400px;
   margin-bottom: 4%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
 }
 .gallery-card-title {
   font-size: 2rem;
@@ -119,7 +124,7 @@ body ul {
   background-color: linear-gradient(rgba);
 }
 .gallery #card-3 {
-  background-image: url("../images/cidade.jpg");
+  background-image: url("../images/cidade-1.jpg");
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -145,7 +150,7 @@ body ul {
   background-color: linear-gradient(rgba);
 }
 .gallery #card-5 {
-  background-image: url("../images/pessoas.jpg");
+  background-image: url("../images/pessoas-1.jpg");
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -158,7 +163,7 @@ body ul {
   background-color: linear-gradient(rgba);
 }
 .gallery #card-6 {
-  background-image: url("../images/natureza.jpg");
+  background-image: url("../images/natureza-1.jpg");
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;

@@ -262,15 +262,4 @@ footer span {
     width: 80%;
     margin-bottom: 6%;
   }
-
-  .gallery .gallery-card .gallery-card-btn:hover {
-    background-color: #fff;
-    color: #000;
-  }
-
-  .gallery .gallery-card:hover{
-    background-size: 110%;
-    filter: grayscale(0%);
-    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5));
-  }
 }

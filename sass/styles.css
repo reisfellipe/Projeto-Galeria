@@ -214,3 +214,42 @@ body ul {
   filter: grayscale(0%);
   background-color: linear-gradient(rgba);
 }/*# sourceMappingURL=styles.css.map */
+
+footer {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+footer span {
+  font-weight: bold;
+  color: #20c997;
+}
+
+@media (max-width: 425px) {
+  .header{
+    padding: 1.1rem;
+  }
+
+  .header .header-navbar ul {
+    display: none;
+  }
+
+  .header .header-social-media ul {
+    display: none;
+  }
+
+  .header .header-brand {
+    text-align: center;
+    margin-left: 15px;
+  }
+
+  .gallery {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .gallery .gallery-card {
+    width: 80%;
+    margin-bottom: 6%;
+  }
+}

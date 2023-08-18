@@ -236,10 +236,6 @@ footer span {
     pointer-events: none;
   }
 
-  body a:active {
-    background-color: #fff;
-  }
-
   .header{
     padding: 1.1rem;
   }
@@ -265,5 +261,16 @@ footer span {
   .gallery .gallery-card {
     width: 80%;
     margin-bottom: 6%;
+  }
+
+  .gallery .gallery-card .gallery-card-btn:hover {
+    background-color: #fff;
+    color: #000;
+  }
+
+  .gallery .gallery-card:hover{
+    background-size: 110%;
+    filter: grayscale(0%);
+    background-color: linear-gradient(rgba);
   }
 }

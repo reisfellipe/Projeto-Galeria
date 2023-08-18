@@ -226,6 +226,14 @@ footer span {
 }
 
 @media (max-width: 425px) {
+  body a{
+    pointer-events: none;
+  }
+
+  body a:active {
+    background-color: #fff;
+  }
+
   .header{
     padding: 1.1rem;
   }
